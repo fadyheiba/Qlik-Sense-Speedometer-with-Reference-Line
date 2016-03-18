@@ -10,10 +10,14 @@ Typically used to visualize percentage KPI's as compared to their benchmark valu
 The extension is based on the following D3 code:
 http://bl.ocks.org/metormote/6392996
 
+Changelog:
 
 V1 : First Upload
 
 V1 with Examples
+
+V1.1 : Added the option to remove the reference line. It's a normal speedometer with one indicator when it receives one measure, and a reference line is automatically drawn if you add the second measure.
+
 
 ![alt tag](Examples/Screen Shot 2016-03-17 at 17.35.29.png)
 ![alt tag](Examples/Screen Shot 2016-03-17 at 17.35.54.png)
