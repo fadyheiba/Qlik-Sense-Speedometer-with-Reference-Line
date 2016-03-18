@@ -12,7 +12,8 @@ http://bl.ocks.org/metormote/6392996
 
 
 V1 : First Upload
-v1 with Examples
+
+V1 with Examples
 
 ![alt tag](Examples/Screen Shot 2016-03-17 at 17.35.29.png)
 ![alt tag](Examples/Screen Shot 2016-03-17 at 17.35.54.png)
