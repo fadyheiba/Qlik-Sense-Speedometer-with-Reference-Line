@@ -18,6 +18,8 @@ V1 with Examples
 
 V1.1 : Added the option to remove the reference line. It's a normal speedometer with one indicator when it receives one measure, and a reference line is automatically drawn if you add the second measure.
 
+V1.1 with GIF Example
 
+![alt tag](Examples/Speedometer D3 - TwoDials Extension.gif)
 ![alt tag](Examples/Screen Shot 2016-03-17 at 17.35.29.png)
 ![alt tag](Examples/Screen Shot 2016-03-17 at 17.35.54.png)
