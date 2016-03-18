@@ -1,0 +1,9 @@
+{	"name" : "Speedometer w/ TwoIndicators (D3)",
+	"description" : "A D3-code-based speedometer with two indicators and conditional coloring depending on reference line.
+    Author: Fady Heiba",
+	"icon" : "extension",
+	"type" : "visualization",
+	"version": "1.0",
+	"preview" : "speedometerd3twoindicators.png",
+	"author": "Fady Heiba"
+}

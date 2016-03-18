@@ -1,0 +1,58 @@
+.qv-object-speedometerd3 div.qv-object-content-container {
+
+    font: 16px arial;
+    background-color: #515151;
+
+}
+
+.qv-object-speedometerd3 .unselectable {
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/*css formats for the gauge */
+.qv-object-speedometerd3 .gauge .domain {
+    stroke-width: 2px;
+    stroke: #fff;
+}
+
+.qv-object-speedometerd3 .gauge .tick line {
+    stroke: #fff;
+    stroke-width: 2px;
+}
+
+.qv-object-speedometerd3 .gauge line {
+    stroke: #fff;
+}
+
+.qv-object-speedometerd3 .gauge .arc, 
+.qv-object-speedometerd3 .gauge .cursor {
+    opacity: 0;
+}
+
+.qv-object-speedometerd3 .gauge .major {
+    fill: #fff;
+    font-size: 20px;
+    font-family: 'Play', verdana, sans-serif;
+    font-weight: normal;
+}
+
+.qv-object-speedometerd3 .gauge .indicator {
+    stroke: #EE3311;
+    fill: #000;
+    stroke-width: 4px;
+}
+
+/*css formats for the segment display*/
+.qv-object-speedometerd3 .segdisplay .on {
+    fill: #00FFFF;
+
+}
+
+.qv-object-speedometerd3 .segdisplay .off {
+    fill: #00FFFF;
+    opacity: 0.15;
+}

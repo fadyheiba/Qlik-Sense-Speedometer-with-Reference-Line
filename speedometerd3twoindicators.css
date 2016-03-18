@@ -1,0 +1,165 @@
+.qv-object-speedometerd3twoindicators div.qv-object-content-container {
+    font: 16px arial;
+    background-color: #fff;
+}
+
+.qv-object-speedometerd3twoindicators .unselectable {
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+
+/*GREEN INDICATOR*/
+/*Guage Arc Outer Border*/
+.qv-object-speedometerd3twoindicators .gaugegreen .domain {
+    stroke-width: 6px;
+    stroke: #595959;
+}
+
+/*Reference major ticks*/
+.qv-object-speedometerd3twoindicators .gaugegreen .tick line {
+    stroke: #595959;
+    stroke-width: 2px;
+}
+
+/*Reference minor ticks*/
+.qv-object-speedometerd3twoindicators .gaugegreen line {
+    stroke: #a6a6a6;
+}
+
+/*Background arc around reference numbers*/
+.qv-object-speedometerd3twoindicators .gaugegreen .arc,
+.qv-object-speedometerd3twoindicators .gaugegreen .cursor {
+    opacity: 0.05;
+}
+
+/*Reference numbers in guage*/
+.qv-object-speedometerd3twoindicators .gaugegreen .major {
+    fill: #595959;
+    font-size: 18px;
+    font-family: Verdana, sans-serif;
+    font-weight: normal;
+}
+
+/*indicator*/
+.qv-object-speedometerd3twoindicators .gaugegreen .indicator {
+    stroke: #00ff00;
+    fill: #fff;
+    stroke-width: 3px;
+}
+
+
+
+
+/*RED INDICATOR*/
+/*Guage Arc Outer Border*/
+.qv-object-speedometerd3twoindicators .gaugered .domain {
+    stroke-width: 6px;
+    stroke: #595959;
+}
+
+/*Reference major ticks*/
+.qv-object-speedometerd3twoindicators .gaugered .tick line {
+    stroke: #595959;
+    stroke-width: 2px;
+}
+
+/*Reference minor ticks*/
+.qv-object-speedometerd3twoindicators .gaugered line {
+    stroke: #a6a6a6;
+}
+
+/*Background arc around reference numbers*/
+.qv-object-speedometerd3twoindicators .gaugered .arc,
+.qv-object-speedometerd3twoindicators .gaugered .cursor {
+    opacity: 0.05;
+}
+
+/*Reference numbers in guage*/
+.qv-object-speedometerd3twoindicators .gaugered .major {
+    fill: #595959;
+    font-size: 18px;
+    font-family: Verdana, sans-serif;
+    font-weight: normal;
+}
+
+/*indicator*/
+.qv-object-speedometerd3twoindicators .gaugered .indicator {
+    stroke: #EE3311;
+    fill: #fff;
+    stroke-width: 3px;
+}
+
+
+
+
+/*REFERENCE INDICATOR*/
+/*Guage Arc Outer Border*/
+.qv-object-speedometerd3twoindicators .gaugeref .domain {
+    stroke-width: 6px;
+    stroke: #595959;
+}
+
+/*Reference major ticks*/
+.qv-object-speedometerd3twoindicators .gaugeref .tick line {
+    stroke: #595959;
+    stroke-width: 2px;
+}
+
+/*Reference minor ticks*/
+.qv-object-speedometerd3twoindicators .gaugeref line {
+    stroke: #a6a6a6;
+}
+
+/*Background arc around reference numbers*/
+.qv-object-speedometerd3twoindicators .gaugeref .arc,
+.qv-object-speedometerd3twoindicators .gaugeref .cursor {
+    opacity: 0.05;
+}
+
+/*Reference numbers in guage*/
+.qv-object-speedometerd3twoindicators .gaugeref .major {
+    fill: #595959;
+    font-size: 18px;
+    font-family: Verdana, sans-serif;
+    font-weight: normal;
+}
+
+/*indicator*/
+.qv-object-speedometerd3twoindicators .gaugeref .indicator {
+    stroke: #595959;
+    fill: #fff;
+    stroke-width: 2px;
+}
+
+
+
+
+
+/*RED METER*/
+/*Meter Display On*/
+.qv-object-speedometerd3twoindicators .segdisplayred .on {
+    fill: #EE3311;
+}
+
+/*Meter Display Off*/
+.qv-object-speedometerd3twoindicators .segdisplayred .off {
+    fill: #fff;
+    opacity: 0;
+}
+
+/*GREEN METER*/
+/*Meter Display On*/
+.qv-object-speedometerd3twoindicators .segdisplaygreen .on {
+    fill: #00ff00;
+}
+
+/*Meter Display Off*/
+.qv-object-speedometerd3twoindicators .segdisplaygreen .off {
+    fill: #fff;
+    opacity: 0;
+}

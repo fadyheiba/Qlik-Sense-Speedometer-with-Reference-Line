@@ -1,0 +1,90 @@
+body {
+    font: 16px arial;
+    background-color: #fff;
+}
+
+.unselectable {
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* css formats for the gauge */
+.gauge .domain {
+    stroke-width: 6px;
+    stroke: #595959;
+}
+
+.gauge .tick line {
+    stroke: #595959;
+    stroke-width: 2px;
+}
+
+.gauge line {
+    stroke: #a6a6a6;
+}
+
+.gauge .arc,
+.gauge .cursor {
+    opacity: 0.05;
+}
+
+/*Reference numbers in guage*/
+.gauge .major {
+    fill: #595959;
+    font-size: 18px;
+    font-family: Verdana, sans-serif;
+    font-weight: normal;
+}
+
+.gauge .indicator {
+    stroke: #EE3311;
+    fill: #fff;
+    stroke-width: 3px;
+}
+
+/* css formats for the gauge */
+.gauge2 .domain {
+    stroke-width: 6px;
+    stroke: #595959;
+}
+
+.gauge2 .tick line {
+    stroke: #595959;
+    stroke-width: 2px;
+}
+
+.gauge2 line {
+    stroke: #a6a6a6;
+}
+
+.gauge2 .arc,
+.gauge2 .cursor {
+    opacity: 0.05;
+}
+
+/*Reference numbers in guage*/
+.gauge2 .major {
+    fill: #595959;
+    font-size: 18px;
+    font-family: Verdana, sans-serif;
+    font-weight: normal;
+}
+
+.gauge2 .indicator {
+    stroke: #696969;
+    fill: #fff;
+    stroke-width: 3px;
+}
+
+/* css formats for the segment display */
+.segdisplay .on {
+    fill: #EE3311;
+}
+
+.segdisplay .off {
+    fill: #fff;
+    opacity: 0;
+}
