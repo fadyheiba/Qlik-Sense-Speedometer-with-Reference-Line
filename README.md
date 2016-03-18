@@ -16,4 +16,3 @@ v1 with Examples
 
 ![alt tag](Examples/Screen Shot 2016-03-17 at 17.35.29.png)
 ![alt tag](Examples/Screen Shot 2016-03-17 at 17.35.54.png)
-![alt tag](Examples/Speedometer D3 - TwoDials Extension.mp4)
