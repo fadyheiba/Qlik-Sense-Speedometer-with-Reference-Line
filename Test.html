@@ -17,6 +17,15 @@
     </div>
 
     <script>
+        
+        for(i=0; i<document.styleSheets.length; i++){  
+        var themRules = document.styleSheets[i].cssRules? document.styleSheets[i].cssRules: document.styleSheets[i].rules;
+    
+           console.log('Speedometer Stylesheet THIS ONE IS MEDIA:',document.styleSheets[i]);
+           var speedometerSheet = document.styleSheets[i];
+           
+    }
+        
         var svg = d3.select("#speedometer")
         .append("svg:svg")
         .attr("width", 400)
@@ -50,13 +59,16 @@
             .scale(d3.scale.linear()
                    .domain([0, 100])
                    .range([-3*Math.PI/4, 3*Math.PI/4]));
-
+        
+        
+        
         var segDisplay = iopctrl.segdisplay()
         .width(80)
         .digitCount(3)
         .negative(false)
         .decimals(1);
-
+        
+        
         svg.append("g")
             .attr("class", "segdisplay")
             .attr("transform", "translate(130, 200)")
@@ -75,5 +87,7 @@
         
         gauge2.value(30);
 
+        gauge.style('stroke', '#fff');
+        gauge2.style('stroke', '#fff');
     </script>
 </body>
