@@ -23,6 +23,5 @@ V1.1 with GIF Example
 v2.0 : Added Preferences for indicators' colors, range start and end, total ticks multiplier, subticks per tick, and the opacity of the arc's background shadow.
 
 ![alt tag](Examples/Speedometer D3 - TwoDials Extension.gif)
+
 ![alt tag](Examples/Speedometer D3 - TwoDials Extension 2.gif)
-![alt tag](Examples/Screen Shot 2016-03-17 at 17.35.29.png)
-![alt tag](Examples/Screen Shot 2016-03-17 at 17.35.54.png)
