@@ -4,6 +4,6 @@
 	"icon" : "extension",
 	"type" : "visualization",
 	"version": "1.0",
-	"preview" : "speedometerd3twoindicators.png",
+	"preview" : "FEI-speedometerd3twoindicators.png",
 	"author": "Fady Heiba"
 }
